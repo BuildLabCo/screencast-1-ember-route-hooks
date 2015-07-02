@@ -1,0 +1,17 @@
+{
+	"folders":
+	[
+		{
+			"folder_exclude_patterns":
+			[
+				"webapp/dist",
+				"webapp/tmp",
+				"webapp/node_modules",
+				"webapp/bower_components/",
+				"webapp/bower_components"
+			],
+			"follow_symlinks": true,
+			"path": "."
+		}
+	]
+}

@@ -1,0 +1,14 @@
+<div class="col-sm-2 col-sm-offset-1">
+  <div class="nav-categories">
+    <ul>
+      <li>{{#link-to "posts"}}All{{/link-to}}</li>
+    </ul>
+  </div>
+</div>
+<div class="col-sm-8">
+  <div class="photo-container">
+    {{#each model as |post|}}
+      {{post-tile post=post}}
+    {{/each}}
+  </div>
+</div>
